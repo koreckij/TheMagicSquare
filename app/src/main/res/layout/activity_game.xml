@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".GameActivity">
 
-    <include layout="@layout/fragment_first" />
+    <include layout="@layout/game_vertical" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

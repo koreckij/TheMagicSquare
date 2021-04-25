@@ -47,7 +47,7 @@ public class WelcomeActivity extends AppCompatActivity {
     private View.OnClickListener onPlayClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+            Intent intent = new Intent(getApplicationContext(), GameActivity.class);
             intent.putExtra("PlayerName",playerName);
             intent.putExtra("Level",level);
             startActivityForResult(intent, GAME_ACTIVITY_CODE);

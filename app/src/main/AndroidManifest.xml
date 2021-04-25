@@ -24,7 +24,7 @@
                app to run.
         -->
         <activity
-            android:name=".MainActivity"
+            android:name=".GameActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/app_name"
             android:theme="@style/Theme.TheMagicSquare.NoActionBar">
